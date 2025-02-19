@@ -2,7 +2,7 @@ import { SafeAreaView, ScrollView, Text, View } from 'react-native'
 // import { useNavigation } from '@react-navigation/native'
 import React from 'react'
 
-function HomeScreen () {
+function ProfileScreen () {
   // const navigation = useNavigation()
   return (
     <SafeAreaView style={{
@@ -15,7 +15,7 @@ function HomeScreen () {
     >
       <ScrollView contentInsetAdjustmentBehavior='scrollableAxes'>
         <View>
-          <Text>COUCOU</Text>
+          <Text>Profil</Text>
           {/* <Button title='Aller au profil' onPress={() => navigation.navigate('Home')} /> */}
         </View>
       </ScrollView>
@@ -23,4 +23,4 @@ function HomeScreen () {
   )
 }
 
-export default HomeScreen
+export default ProfileScreen
