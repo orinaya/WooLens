@@ -1,13 +1,13 @@
 import { createNativeStackNavigator } from '@react-navigation/native-stack'
-import ProfileScreen from '../screens/ProfileScreen'
+import FormScreen from '../screens/FormScreen'
 
 const Stack = createNativeStackNavigator()
-function ProfileNavigator () {
+function FormNavigator () {
   return (
     <Stack.Navigator>
-      <Stack.Screen name='Profile' component={ProfileScreen} />
+      <Stack.Screen name='Form' component={FormScreen} />
     </Stack.Navigator>
   )
 }
 
-export default ProfileNavigator
+export default FormNavigator

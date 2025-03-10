@@ -2,7 +2,7 @@ import { createNativeStackNavigator } from '@react-navigation/native-stack'
 import CameraScreen from '../screens/CameraScreen'
 
 const Stack = createNativeStackNavigator()
-function AddProductsNavigator() {
+function AddProductsNavigator () {
   return (
     <Stack.Navigator>
       <Stack.Screen name='Add products' component={CameraScreen} />
